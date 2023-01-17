@@ -20,7 +20,7 @@ function clock() {
     const minute = twoDigit(now.getMinutes());
     const second = twoDigit(now.getSeconds());
 
-    if(minute == 07 && second == 00){
+    if(minute == 17 && second == 00){
         audio()
     }
     document.getElementById("clock_date").textContent = year + "/" + month + "/" + day + " (" + week + ")";
