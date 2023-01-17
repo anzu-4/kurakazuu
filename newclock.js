@@ -20,7 +20,7 @@ function clock() {
     const minute = twoDigit(now.getMinutes());
     const second = twoDigit(now.getSeconds());
 
-    if(minute == 20 && second == 00){
+    if(minute == 30 && second == 00){
         audio()
     }
     document.getElementById("clock_date").textContent = year + "/" + month + "/" + day + " (" + week + ")";
@@ -31,3 +31,4 @@ function clock() {
 
 }
 setInterval(clock, 1000);
+alert("音が出ます")
