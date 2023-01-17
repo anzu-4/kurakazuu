@@ -12,7 +12,7 @@ p{
 p2{
     font-size: 50px;
     color: blue;
-    margin 0;
+    margin: 0;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -39,6 +39,18 @@ button:hover{
     border: 2px solid #1a66ce;
     background: rgb(240, 237, 237);
     color: #333;
+}
+#kurakazu_button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 2px solid rgba(77, 77, 77, 0);
+    padding: 0px;
+    background: none;
+    color: rgba(77, 77, 77, 0);
+    cursor: pointer;
+    vertical-align: middle;
 }
 div{
     position: absolute;
