@@ -71,13 +71,13 @@ img{
         color: blue;
         margin: 0;
         position: absolute;
-        top: 35%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%,-50%); 
         font-family: 'M PLUS Rounded 1c', sans-serif;
     }
     p2{
-        font-size: 25px;
+        font-size: 20px;
         color: blue;
         margin: 0;
         position: absolute;
