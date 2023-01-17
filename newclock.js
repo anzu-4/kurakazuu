@@ -31,4 +31,3 @@ function clock() {
 
 }
 setInterval(clock, 1000);
-alert("音が出ます")
