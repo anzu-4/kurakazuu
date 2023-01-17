@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+p{
+    font-size: 150px;
+    color: blue;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+p2{
+    font-size: 50px;
+    color: blue;
+    margin 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+body{
+    height: 100vh;
+    position: relative;
+}
+button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 2px solid #1a66ce;
+    padding: 0px;
+    background: none;
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    vertical-align: middle;
+}
+button:hover{
+    border: 2px solid #1a66ce;
+    background: rgb(240, 237, 237);
+    color: #333;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
