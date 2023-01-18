@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
-p{
+#clock_time{
     font-size: 150px;
     color: blue;
     margin: 0;
@@ -9,7 +9,7 @@ p{
     transform: translate(-50%,-50%); 
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-p2{
+#clock_date{
     font-size: 50px;
     color: blue;
     margin: 0;
@@ -23,7 +23,7 @@ body{
     height: 100vh;
     position: relative;
 }
-button {
+.sns-link>button {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -35,7 +35,7 @@ button {
     cursor: pointer;
     vertical-align: middle;
 }
-button:hover{
+.sns-link>button:hover{
     border: 2px solid #1a66ce;
     background: rgb(240, 237, 237);
     color: #333;
@@ -52,7 +52,7 @@ button:hover{
     cursor: pointer;
     vertical-align: middle;
 }
-div{
+.sns-link{
     position: absolute;
     top: 50%;
     left: 20%;
@@ -66,7 +66,7 @@ img{
 
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-    p{
+    #clock_time{
         font-size: 80px;
         color: blue;
         margin: 0;
@@ -76,7 +76,7 @@ img{
         transform: translate(-50%,-50%); 
         font-family: 'M PLUS Rounded 1c', sans-serif;
     }
-    p2{
+    #clock_date{
         font-size: 20px;
         color: blue;
         margin: 0;
@@ -87,7 +87,7 @@ img{
         font-family: 'M PLUS Rounded 1c', sans-serif;
     }
 
-    button {
+    .sns-link>button {
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -99,7 +99,7 @@ img{
         cursor: pointer;
         vertical-align: middle;
     }
-    button:hover{
+    .sns-link>button:hover{
         border: 2px solid #1a66ce;
         background: rgb(240, 237, 237);
         color: #333;
@@ -116,7 +116,7 @@ img{
         cursor: pointer;
         vertical-align: middle;
     }
-    div{
+    .sns-link{
         position: absolute;
         top: 50%;
         left: 14%;
