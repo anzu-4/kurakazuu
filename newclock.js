@@ -20,9 +20,12 @@ function clock() {
     const minute = twoDigit(now.getMinutes());
     const second = twoDigit(now.getSeconds());
 
-    if(minute == 00 && second == 00){
+    if(hour == 00 && minute == 00 && second == 00){
+        hide()
+    }else if(minute == 00 && second == 00){
         audio()
     }
+
     document.getElementById("clock_date").textContent = year + "/" + month + "/" + day + " (" + week + ")";
     document.getElementById("clock_time").textContent = `${hour}:${minute}:${second}`;
 

@@ -4,7 +4,7 @@ function audio() {
   //  document.getElementById('btn_audio').play(); //クリックしたら音を再生
 }
 function hide() {
-    for(let i=0;i<50;i++){
+    for(let i=0;i<100;i++){
     new Audio("jiho-kurakazu.mp3").play()
 }
     
