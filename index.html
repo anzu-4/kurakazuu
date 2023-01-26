@@ -10,11 +10,13 @@
 
   <title>くらかず</title>
 
+  <script src="newclock.js"></script><script src="sound.js"></script>
+
 </head>
 
 <body>
 
-  <script>Swal.fire('音がなります')</script>
+  <!-- <script>Swal.fire('音がなります')</script> -->
 
 
   <p id="clock_time"></p>
@@ -29,15 +31,13 @@
 
   </div>
 
-  <script src="newclock.js"></script><script src="sound.js"></script>
-
-
   <button id="kurakazu_button" onclick="audio()"></button>
   <button id="kurakazu_hide" onclick="hide()"></button>
  
   <audio id="btn_audio">
       <source src="./jiho-kurakazu.mp3" type="audio/mp3">
   </audio>
+
 </body>
 
 </html>
