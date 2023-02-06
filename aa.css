@@ -77,6 +77,49 @@ img{
     height: 60%;
     object-fit: contain;
 }
+#kakushi {
+    display: inline-block;
+    background-color: #ffc003;
+    color: #fff;
+    font-size: 30px;
+    /* border: 2px solid #333; */
+    animation: show-message 0.5s ease-in-out;
+    cursor: pointer;
+    border-color: rgba(0,0,0,0.2);
+    border-top:3px solid rgba(255,255,255,0.2);
+    border-bottom:3px solid rgba(0,0,0,0.2);
+    
+    /* 中央揃え */
+    position: absolute;
+    padding: 20px;
+    top: 70%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 100px;
+} 
+#kakushi:hover {
+    background-color: #ebb000;
+    color: rgb(255, 255, 255);
+ }
+#kakushi:active {
+	-webkit-transform: translate(0,2px);
+	-moz-transform: translate(0,2px);
+	transform: translate(0,2px);
+	border-bottom:none;
+	}
+ @keyframes show-message {
+   from {
+     transform: scale(0);
+     opacity: 0;
+   }
+   to {
+     transform: scale(1);
+     opacity: 1;
+   }
+}
 
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
     #clock_time{
